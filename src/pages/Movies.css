@@ -1,0 +1,149 @@
+.main-title {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+
+.back-link {
+  text-decoration: none;
+  color: #0073e6; 
+  font-size: 18px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center; 
+}
+
+
+.movie-card {
+  background-color: #ecebeb;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  width: 400px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+  position: relative; 
+}
+
+
+.card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+
+.heart-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: black; 
+  cursor: pointer;
+  font-size: 24px;
+  transition: color 0.3s ease-in-out;
+}
+
+
+.heart-icon:hover {
+  color: red; 
+}
+
+
+
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-left: 20px;
+}
+
+
+.main-title {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+
+.search-form {
+  margin-top: 20px;
+}
+
+.search-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 1px;
+  padding: 1px 18px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+}
+
+
+.movie-card {
+  background-color: #ecebeb;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  width: 400px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+
+
+.heart-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 22px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+
+.heart-icon.liked {
+  color: red;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 10px; 
+  right: 10px; 
+  color: black; 
+  cursor: pointer;
+  z-index: 1; 
+  font-size: 24px; 
+}
+
+
+.heart-icon.liked {
+  color: red; 
+}

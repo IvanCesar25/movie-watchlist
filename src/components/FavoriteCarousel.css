@@ -1,0 +1,16 @@
+.favorite-carousel-container {
+  background-color: blue;
+  padding: 20px;
+}
+
+.favorite-movie-card {
+  text-align: center;
+  margin: 0 10px;
+}
+
+.favorite-movie-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+

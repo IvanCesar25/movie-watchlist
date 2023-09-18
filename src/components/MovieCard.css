@@ -1,0 +1,16 @@
+.heart-icon {
+  color: black; 
+  font-size: 24px; 
+  cursor: pointer; 
+}
+
+.heart-icon.liked {
+  color: red; 
+}
+.heart-icon-container {
+  transition: color 0.3s ease-in-out; 
+}
+
+.heart-icon-container:hover {
+  cursor: pointer; 
+}
