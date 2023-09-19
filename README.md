@@ -1,6 +1,7 @@
 # Movie-Watchlist
 
-Uma breve descrição do seu projeto em React.
+Teste para vaga de Front-End Developer Jr, para a Simples Software.
+
 
 ## Pré-requisitos
 
