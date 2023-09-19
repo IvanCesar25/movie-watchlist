@@ -64,3 +64,5 @@ Faça commit das suas alterações: git commit -m 'Adicione uma nova feature'.
 Envie para a branch principal: git push origin feature/nova-feature.
 Abra um Pull Request.
 
+O projeto já pode ser executado.
+
